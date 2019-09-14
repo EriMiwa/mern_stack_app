@@ -3,6 +3,7 @@ const Schema = mongoose.Schema;
 
 //defines data types and options for database
 const employeesSchema = new Schema({
+  checked: { type: Boolean, required: true },
   name: { type: String, required: true },
   email: { type: String, required: true },
   address: { type: String, required: true },
