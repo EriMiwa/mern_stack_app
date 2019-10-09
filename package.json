@@ -15,6 +15,7 @@
     "express": "^4.17.1",
     "install": "^0.13.0",
     "mongoose": "^5.7.0",
+    "node": "^12.11.1",
     "uuid": "^3.3.3"
   },
   "devDependencies": {
