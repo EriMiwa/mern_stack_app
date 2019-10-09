@@ -45,7 +45,7 @@ router.put('/', (req, res) => {
     Employees.findOneAndUpdate(query, newUpdatingData)
     .then(() => res.send('Updating success'))
     .catch(err => res.status(400).json({ 'msg': `Error: ${err}`}));
-});
+  });
   
 router.delete('/', (req, res) => {
     var query = { checked: true };
